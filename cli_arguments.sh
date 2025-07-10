@@ -1,9 +1,9 @@
 #!/bin/bash
-# afficher le nombre total d'arguments
+# lire tous les arguments
 read -a args 
 i=1
-for arg in "${args[@]}"; do
-echo "Argument $i: $arg" 
-#shift 
+for j in "${args[@]}";do
+echo "Argument $i: $j"
+#shift
 ((i++))
 done
