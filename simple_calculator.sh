@@ -1,10 +1,7 @@
 #!/bin/bash
 
-echo "Entrez le premier nombre :"
-read a
-
-echo "Entrez le deuxième nombre :"
-read b
+echo "Entrez les nombres :"
+read a b
 
 somme=$((a + b))
-echo "La somme est : $somme"
+echo "Résultat : $somme"
