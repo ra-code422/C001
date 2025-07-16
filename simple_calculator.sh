@@ -2,7 +2,6 @@
 # Script d'une calculatrice simple
 
 # Demande à l'utilisateur d'entrer deux nombres et un opérateur
-echo "Entrez les nombres et l'opérateur "
 read a b op  # 'a' est le 1er nombre, 'b' le 2e, 'op' l'opérateur (+ - × ÷)
 
 # Vérifie si l'opérateur est une addition
